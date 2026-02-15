@@ -1,0 +1,32 @@
+{
+  "units": [
+    {
+      "id": 1,
+      "title": "Saludos básicos",
+      "vocab": [
+        { "hz": "你", "py": "nǐ", "es": "tú" },
+        { "hz": "好", "py": "hǎo", "es": "bien" },
+        { "hz": "你好", "py": "nǐ hǎo", "es": "hola" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Presentaciones",
+      "vocab": [
+        { "hz": "我", "py": "wǒ", "es": "yo" },
+        { "hz": "叫", "py": "jiào", "es": "llamarse" },
+        { "hz": "名字", "py": "míngzi", "es": "nombre" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Números",
+      "vocab": [
+        { "hz": "一", "py": "yī", "es": "uno" },
+        { "hz": "二", "py": "èr", "es": "dos" },
+        { "hz": "三", "py": "sān", "es": "tres" }
+      ]
+    }
+  ]
+}
+

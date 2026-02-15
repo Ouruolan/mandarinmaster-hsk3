@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #ffd6e0, #ffe5ec, #fff1f2);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  width: 390px;
+  height: 780px;
+  background: linear-gradient(180deg, #ffffff 0%, #fff7f9 100%);
+  border-radius: 40px;
+  box-shadow: 0 25px 80px rgba(0,0,0,0.25);
+  padding: 20px;
+  overflow-y: auto;
+  position: relative;
+  border: 8px solid #222;
+}
+
+.app-title {
+  text-align: center;
+  color: #ef4444;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fdf6f0;
+    padding: 30px;
+}
+
+h1 {
+    color: #ef4444;
+}
+
+.unit {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.unit button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #ef4444;
+    color: white;
+    cursor: pointer;
+}
+
+.unit.locked {
+    opacity: 0.5;
+}
+
+.unit button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+.status {
+  background: linear-gradient(135deg, #ffcad4, #fcd5ce);
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card {
+  background: linear-gradient(145deg, #ffffff, #fff0f5);
+  padding: 25px;
+  border-radius: 20px;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(255, 105, 135, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.hanzi {
+  font-size: 50px;
+  color: #ef4444;
+}
+
+.pinyin {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.meaning {
+  color: gray;
+  margin-top: 5px;
+}
+.progress-bar {
+  height: 10px;
+  background: #eee;
+  border-radius: 10px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #ef4444;
+  transition: width 0.4s ease;
+}
+
+button {
+  padding: 12px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff6b81, #ff8fa3);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 105, 135, 0.4);
+}
+.celebration {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.celebration h2 {
+  font-size: 28px;
+  color: #ef4444;
+  margin-bottom: 10px;
+}
+
+.confetti-piece {
+  position: fixed;
+  top: -10px;
+  border-radius: 3px;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(720deg);
+  }
+}
+.toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) scale(0.8);
+  padding: 12px 20px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.toast.success {
+  background: #16a34a;
+}
+
+.toast.error {
+  background: #dc2626;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+#app {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+#app {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.splash {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.splash .logo {
+  font-size: 70px;
+  animation: bounce 1.5s infinite;
+}
+
+.splash h1 {
+  color: #ef4444;
+  margin: 10px 0 0;
+}
+
+.splash h2 {
+  margin: 0;
+  color: #555;
+}
+
+.splash p {
+  color: #666;
+  margin: 15px 0;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
