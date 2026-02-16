@@ -1,32 +1,163 @@
 {
+  "level": "HSK 1 3.0",
+  "totalWords": 500,
   "units": [
     {
       "id": 1,
-      "title": "Saludos básicos",
+      "title": "Saludos y presentaciones",
+      "theme": "Comunicación básica",
       "vocab": [
         { "hz": "你", "py": "nǐ", "es": "tú" },
         { "hz": "好", "py": "hǎo", "es": "bien" },
-        { "hz": "你好", "py": "nǐ hǎo", "es": "hola" }
+        { "hz": "你好", "py": "nǐ hǎo", "es": "hola" },
+        { "hz": "我", "py": "wǒ", "es": "yo" },
+        { "hz": "叫", "py": "jiào", "es": "llamarse" },
+        { "hz": "什么", "py": "shénme", "es": "qué" }
       ]
     },
     {
       "id": 2,
-      "title": "Presentaciones",
-      "vocab": [
-        { "hz": "我", "py": "wǒ", "es": "yo" },
-        { "hz": "叫", "py": "jiào", "es": "llamarse" },
-        { "hz": "名字", "py": "míngzi", "es": "nombre" }
-      ]
+      "title": "Información personal",
+      "theme": "Datos básicos",
+      "vocab": []
     },
     {
       "id": 3,
-      "title": "Números",
-      "vocab": [
-        { "hz": "一", "py": "yī", "es": "uno" },
-        { "hz": "二", "py": "èr", "es": "dos" },
-        { "hz": "三", "py": "sān", "es": "tres" }
-      ]
+      "title": "Familia",
+      "theme": "Relaciones",
+      "vocab": []
+    },
+    {
+      "id": 4,
+      "title": "Países y nacionalidades",
+      "theme": "Geografía",
+      "vocab": []
+    },
+    {
+      "id": 5,
+      "title": "Números y cantidades",
+      "theme": "Matemático",
+      "vocab": []
+    },
+    {
+      "id": 6,
+      "title": "Tiempo y fechas",
+      "theme": "Temporal",
+      "vocab": []
+    },
+    {
+      "id": 7,
+      "title": "Escuela",
+      "theme": "Educación",
+      "vocab": []
+    },
+    {
+      "id": 8,
+      "title": "Trabajo",
+      "theme": "Profesión",
+      "vocab": []
+    },
+    {
+      "id": 9,
+      "title": "Comida básica",
+      "theme": "Alimentación",
+      "vocab": []
+    },
+    {
+      "id": 10,
+      "title": "Bebidas",
+      "theme": "Alimentación",
+      "vocab": []
+    },
+    {
+      "id": 11,
+      "title": "Compras",
+      "theme": "Vida diaria",
+      "vocab": []
+    },
+    {
+      "id": 12,
+      "title": "Colores",
+      "theme": "Descripciones",
+      "vocab": []
+    },
+    {
+      "id": 13,
+      "title": "Transporte",
+      "theme": "Movimiento",
+      "vocab": []
+    },
+    {
+      "id": 14,
+      "title": "Direcciones",
+      "theme": "Orientación",
+      "vocab": []
+    },
+    {
+      "id": 15,
+      "title": "Casa",
+      "theme": "Entorno",
+      "vocab": []
+    },
+    {
+      "id": 16,
+      "title": "Objetos cotidianos",
+      "theme": "Vida diaria",
+      "vocab": []
+    },
+    {
+      "id": 17,
+      "title": "Verbos básicos",
+      "theme": "Gramática",
+      "vocab": []
+    },
+    {
+      "id": 18,
+      "title": "Adjetivos comunes",
+      "theme": "Descripciones",
+      "vocab": []
+    },
+    {
+      "id": 19,
+      "title": "Pronombres y partículas",
+      "theme": "Gramática",
+      "vocab": []
+    },
+    {
+      "id": 20,
+      "title": "Preguntas frecuentes",
+      "theme": "Comunicación",
+      "vocab": []
+    },
+    {
+      "id": 21,
+      "title": "Actividades diarias",
+      "theme": "Rutina",
+      "vocab": []
+    },
+    {
+      "id": 22,
+      "title": "Tiempo libre",
+      "theme": "Ocio",
+      "vocab": []
+    },
+    {
+      "id": 23,
+      "title": "Clima",
+      "theme": "Naturaleza",
+      "vocab": []
+    },
+    {
+      "id": 24,
+      "title": "Salud",
+      "theme": "Cuerpo",
+      "vocab": []
+    },
+    {
+      "id": 25,
+      "title": "Revisión global HSK1",
+      "theme": "Repaso",
+      "vocab": []
     }
   ]
 }
-
